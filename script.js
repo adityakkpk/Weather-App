@@ -13,7 +13,7 @@ window.addEventListener('load', ()=>{
 
 async function getData(cityName) {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=7ff49be441184e749d853351231712&q=${cityName}&aqi=yes`
+    `https://api.weatherapi.com/v1/current.json?key=7ff49be441184e749d853351231712&q=${cityName}&aqi=yes`
   );
   return await response.json();
 }
