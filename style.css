@@ -107,3 +107,9 @@ h2 {
 span {
   color: #0d1b2a;
 }
+
+@media screen and (max-width:400px) {
+  .input-box{
+    display: flex;
+  }
+}
