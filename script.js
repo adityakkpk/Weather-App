@@ -28,7 +28,7 @@ window.addEventListener('load', ()=>{
 //Geting location by Latitude and Longitude
 async function getDataByLongLat(lat,long) {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=7ff49be441184e749d853351231712&q=${lat},${long}&aqi=yes`
+    `https://api.weatherapi.com/v1/current.json?key=7ff49be441184e749d853351231712&q=${lat},${long}&aqi=yes`
     );
     return await response.json();
 }
